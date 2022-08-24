@@ -9,6 +9,10 @@ export class DeseosService {
   listas: Lista[] = [];
 
   constructor() { 
-    console.log('Servicio inicializado');
+   const lista1 = new Lista('Cagar');
+   const lista2 = new Lista('Comer');
+
+
+   this.listas.push(lista1,lista2);
   }
 }

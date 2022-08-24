@@ -1,11 +1,15 @@
 <ion-header class="ion-no-border">
-  <ion-toolbar>
+  <ion-toolbar color="light">
     <ion-title>
       Pendientes
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-
+<ion-content [fullscreen]="true" color="light">
+<ion-list color="light">
+  <ion-item color="light" *ngFor="let lista of deseosService.listas" detail>
+    <ion-label>{{lista.titulo}}</ion-label>
+  </ion-item>
+</ion-list>
 </ion-content>
