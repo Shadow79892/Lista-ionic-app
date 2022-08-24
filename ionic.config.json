@@ -1,0 +1,7 @@
+{
+  "name": "listado-deseos",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
