@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 import { DeseosService } from '../../services/deseos.service';
+import { AlertController } from '@ionic/angular';
+import { Lista } from '../../models/lista.model';
+
 
 @Component({
   selector: 'app-tab2',
@@ -8,6 +11,11 @@ import { DeseosService } from '../../services/deseos.service';
 })
 export class Tab2Page {
 
+
   constructor(public deseosService:DeseosService) {}
+
+
+  
+
 
 }
